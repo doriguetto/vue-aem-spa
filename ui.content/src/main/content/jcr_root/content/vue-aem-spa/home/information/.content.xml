@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-08-29T17:12:28.334+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vue-aem-spa/settings/wcm/templates/vue-aem-spa-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Information"
+        sling:resourceType="vue-aem-spa/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <nav
+                    jcr:created="{Date}2019-08-29T12:36:37.000+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-29T12:36:37.000+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue-aem-spa/components/content/nav"/>
+                <responsivegrid
+                    jcr:created="{Date}2019-08-29T12:36:40.713+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-29T12:36:40.713+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                    <responsivegrid
+                        jcr:created="{Date}2019-08-29T12:37:04.000+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-08-29T12:37:04.000+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                        <text
+                            jcr:created="{Date}2019-08-29T12:37:36.363+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-08-29T16:54:09.127+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue-aem-spa/components/content/text"
+                            text="&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;h1>Information&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;p>Bacon ipsum dolor amet cow shank landjaeger, turkey buffalo picanha porchetta pork chop turducken pastrami shoulder shankle bresaola. Pork belly chicken doner ham hock, shoulder bresaola brisket kevin corned beef. Beef strip steak pork chop meatloaf. Frankfurter bresaola burgdoggen pork loin pork chop.&lt;/p>&#xa;&lt;p>Pork belly tri-tip doner, sausage cupim pancetta chuck shankle ham hock pork chop fatback porchetta alcatra t-bone meatball. Buffalo tri-tip ball tip shank. Shank rump pig ball tip tail picanha, boudin porchetta cupim turducken. Kielbasa shankle meatloaf, pancetta fatback doner tri-tip beef alcatra. Venison cow ball tip, brisket chuck beef flank ham porchetta buffalo.&lt;/p>&#xa;&lt;p>Sirloin spare ribs tail, beef landjaeger pork beef ribs cupim pancetta capicola pork loin jowl doner pastrami. Ribeye rump landjaeger kevin. Pork chop jowl boudin shank, prosciutto pig pastrami kevin cow strip steak venison tail short loin shoulder pork loin. Boudin jowl alcatra meatloaf brisket beef short ribs filet mignon porchetta. Flank ball tip kevin t-bone tenderloin.&lt;/p>&#xa;&lt;p>Buffalo tongue ribeye turkey, jerky cupim short ribs tail tenderloin jowl bacon landjaeger picanha chicken ham hock. Turkey andouille frankfurter sirloin corned beef rump pastrami tri-tip chicken strip steak ribeye fatback tongue burgdoggen. Shankle burgdoggen picanha chuck shank, leberkas pork chop tri-tip ball tip. Fatback short ribs salami tri-tip.&lt;/p>&#xa;&lt;p>Pancetta turducken buffalo corned beef pork belly ribeye meatball capicola bacon tail tri-tip t-bone jowl drumstick pork loin. Short ribs bacon kevin shank fatback sausage. Kielbasa sausage beef pork loin, pastrami swine fatback biltong shank pork belly drumstick ham turkey. Buffalo brisket filet mignon, cupim tenderloin alcatra short ribs capicola shoulder bacon jowl pork chop tail cow turkey. Fatback corned beef pork loin, prosciutto shoulder turkey tongue. Bacon landjaeger boudin, drumstick ribeye pork chop shank spare ribs ham andouille tri-tip.&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </responsivegrid>
+                    <responsivegrid_2037838783
+                        jcr:created="{Date}2019-08-29T12:37:12.575+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-08-29T12:37:12.575+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <text
+                            jcr:created="{Date}2019-08-29T12:37:40.756+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-08-29T16:54:24.726+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue-aem-spa/components/content/text"
+                            text="&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;h1>Side Nav&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;p>Bacon ipsum dolor amet meatloaf prosciutto picanha strip steak kielbasa. Tri-tip pork chop kielbasa, meatloaf shoulder turducken flank porchetta picanha t-bone bacon tongue alcatra. Brisket kevin rump, pork belly ribeye buffalo venison kielbasa beef pancetta jowl shankle drumstick meatloaf. Biltong chicken venison sausage pork loin tongue. Jerky hamburger jowl pig tri-tip kevin beef. Drumstick rump shankle, turkey tri-tip chuck ground round landjaeger porchetta salami shank short ribs filet mignon ribeye capicola. Short loin meatball alcatra, corned beef pastrami ham hock shank rump.&lt;/p>&#xa;&lt;p>Corned beef flank frankfurter meatball chicken kielbasa swine. Hamburger venison pork chop porchetta leberkas. Strip steak sausage picanha frankfurter beef. Venison brisket pork cow bacon capicola turkey strip steak fatback meatloaf turducken. Ham hock meatloaf shoulder, jowl rump biltong shankle ball tip alcatra beef andouille buffalo shank. Tenderloin jerky kielbasa shankle, picanha pork chop turkey biltong ball tip.&lt;/p>&#xa;&lt;p>Rump fatback doner, hamburger jowl tenderloin sirloin. Hamburger pastrami turkey, prosciutto pork loin chicken ground round shankle picanha. Pancetta chicken sausage leberkas landjaeger ham hock pork belly, alcatra capicola sirloin bresaola meatloaf ham porchetta. Rump hamburger pig doner. Ball tip burgdoggen salami, sirloin brisket jerky tail short ribs chicken pig. Ribeye pork belly spare ribs ground round sausage sirloin, buffalo prosciutto meatloaf tail drumstick kevin short ribs jerky turducken.&lt;/p>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="3"/>
+                            </cq:responsive>
+                        </text>
+                    </responsivegrid_2037838783>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

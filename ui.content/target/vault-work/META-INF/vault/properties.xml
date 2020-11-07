@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Vue AEM Spa - UI content</comment>
+<entry key="path">/etc/packages/aem-guides/wknd-events/vue-aem-spa.ui.content.zip</entry>
+<entry key="acHandling">merge_preserve</entry>
+<entry key="createdBy">doriguetto</entry>
+<entry key="created">2020-11-07T13:01:13.490+1100</entry>
+<entry key="groupId">au.com.gdcf</entry>
+<entry key="name">vue-aem-spa.ui.content</entry>
+<entry key="description">UI content package for Vue AEM Spa</entry>
+<entry key="artifactId">vue-aem-spa.ui.content</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">aem-guides/wknd-events</entry>
+</properties>

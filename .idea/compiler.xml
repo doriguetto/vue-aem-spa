@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vue-aem-spa.ui.apps" />
+        <module name="vue-aem-spa.ui.content" />
+        <module name="vue-aem-spa.ui.vue" />
+        <module name="vue-aem-spa.core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vue-aem-spa" target="1.8" />
+      <module name="vue-aem-spa.core" target="1.8" />
+      <module name="vue-aem-spa.ui.apps" target="1.8" />
+      <module name="vue-aem-spa.ui.content" target="1.8" />
+      <module name="vue-aem-spa.ui.vue" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

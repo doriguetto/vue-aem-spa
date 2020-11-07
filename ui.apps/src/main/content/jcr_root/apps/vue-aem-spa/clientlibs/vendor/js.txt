@@ -1,0 +1,3 @@
+#base=js
+
+chunk-vendors.js

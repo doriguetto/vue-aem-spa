@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-08-29T16:53:34.765+10:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/vue-aem-spa/settings/wcm/templates/vue-aem-spa-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="About"
+        sling:resourceType="vue-aem-spa/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <nav
+                    jcr:created="{Date}2019-08-29T12:36:37.000+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-29T12:36:37.000+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue-aem-spa/components/content/nav"/>
+                <responsivegrid
+                    jcr:created="{Date}2019-08-29T12:36:40.713+10:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-29T12:36:40.713+10:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="10"/>
+                    </cq:responsive>
+                    <responsivegrid
+                        jcr:created="{Date}2019-08-29T12:37:04.000+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-08-29T12:37:04.000+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="6"/>
+                        </cq:responsive>
+                        <text
+                            jcr:created="{Date}2019-08-29T12:37:36.363+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-08-29T16:53:08.778+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue-aem-spa/components/content/text"
+                            text="&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;h1>About&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;p>Bacon ipsum dolor amet venison flank tail frankfurter pastrami leberkas. Pork belly pancetta picanha bresaola short ribs rump boudin ribeye ham hock. Filet mignon pancetta tongue beef turkey shankle. T-bone corned beef pork pancetta frankfurter, bacon pig beef ground round capicola sausage brisket flank.&lt;/p>&#xa;&lt;p>Ribeye meatloaf corned beef turkey, shankle cupim t-bone beef jowl biltong pastrami kielbasa. Boudin capicola shankle drumstick kielbasa pork, tenderloin ham hock beef. Shank pork belly kevin shankle prosciutto jerky short ribs, meatloaf beef ribs salami short loin chuck. Ball tip shoulder ham hock capicola. Alcatra jowl cupim fatback tenderloin burgdoggen boudin swine t-bone corned beef doner jerky strip steak pancetta leberkas.&lt;/p>&#xa;&lt;p>Beef ribs pork chop pork loin, ribeye cupim sirloin bresaola. Turkey beef pancetta cupim, porchetta pig pork belly bacon. Short ribs chicken meatloaf ground round, buffalo strip steak venison picanha. Pastrami prosciutto kevin rump tenderloin chicken sausage alcatra, meatloaf pork.&lt;/p>&#xa;"
+                            textIsRich="true"/>
+                    </responsivegrid>
+                    <responsivegrid_2037838783
+                        jcr:created="{Date}2019-08-29T12:37:12.575+10:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2019-08-29T12:37:12.575+10:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                width="4"/>
+                        </cq:responsive>
+                        <text
+                            jcr:created="{Date}2019-08-29T12:37:40.756+10:00"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2019-08-29T16:53:21.176+10:00"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="vue-aem-spa/components/content/text"
+                            text="&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;h1>Side Nav&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;p>Bacon ipsum dolor amet venison flank tail frankfurter pastrami leberkas. Pork belly pancetta picanha bresaola short ribs rump boudin ribeye ham hock. Filet mignon pancetta tongue beef turkey shankle. T-bone corned beef pork pancetta frankfurter, bacon pig beef ground round capicola sausage brisket flank.&lt;/p>&#xa;"
+                            textIsRich="true">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
+                                <default
+                                    jcr:primaryType="nt:unstructured"
+                                    offset="1"
+                                    width="3"/>
+                            </cq:responsive>
+                        </text>
+                    </responsivegrid_2037838783>
+                </responsivegrid>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

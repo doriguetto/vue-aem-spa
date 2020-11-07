@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/vue-aem-spa.iml" filepath="$PROJECT_DIR$/vue-aem-spa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/vue-aem-spa.core.iml" filepath="$PROJECT_DIR$/core/vue-aem-spa.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/vue-aem-spa.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/vue-aem-spa.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/vue-aem-spa.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/vue-aem-spa.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.vue/vue-aem-spa.ui.vue.iml" filepath="$PROJECT_DIR$/ui.vue/vue-aem-spa.ui.vue.iml" />
+    </modules>
+  </component>
+</project>
