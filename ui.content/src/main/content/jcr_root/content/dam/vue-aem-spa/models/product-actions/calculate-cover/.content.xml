@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a9edff6b-929e-4e41-908c-7f021605bfdb">
+    <jcr:content
+        cq:name="calculate-cover"
+        cq:parentPath="/content/dam/vue-aem-spa/models/product-actions"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-11-11T11:18:40.867+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Calculate Cover"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-11-11T11:18:40.867+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/product-interactions"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2020-11-11T11:18:40.852+11:00"
+                productInteractions="Calculate Cover"
+                productInteractions_x0040_LastModified="{Date}2020-11-11T11:18:40.852+11:00"
+                reference_x0040_LastModified="{Date}2020-11-11T11:18:40.852+11:00"
+                title="Calculate Cover"
+                title_x0040_LastModified="{Date}2020-11-11T11:18:40.851+11:00"
+                tooltip_x0040_ContentType="text/html"
+                tooltip_x0040_LastModified="{Date}2020-11-11T11:18:40.852+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

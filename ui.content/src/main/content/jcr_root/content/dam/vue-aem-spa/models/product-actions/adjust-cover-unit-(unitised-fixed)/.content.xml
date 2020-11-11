@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b0e46b81-af27-4b87-be83-9301bf4686ac">
+    <jcr:content
+        cq:name="adjust-cover-unit-(unitised-fixed)"
+        cq:parentPath="/content/dam/vue-aem-spa/models/product-actions"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-11-11T11:19:55.028+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Adjust Cover Unit (unitised/fixed)"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-11-11T11:19:55.028+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/product-interactions"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2020-11-11T11:19:55.006+11:00"
+                productInteractions="Adjust cover unit (unitesed/fixed)"
+                productInteractions_x0040_LastModified="{Date}2020-11-11T11:19:55.006+11:00"
+                reference_x0040_LastModified="{Date}2020-11-11T11:19:55.007+11:00"
+                title="Adujst Cover Unit (unitesed/fixed)"
+                title_x0040_LastModified="{Date}2020-11-11T11:19:55.006+11:00"
+                tooltip_x0040_ContentType="text/html"
+                tooltip_x0040_LastModified="{Date}2020-11-11T11:19:55.007+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

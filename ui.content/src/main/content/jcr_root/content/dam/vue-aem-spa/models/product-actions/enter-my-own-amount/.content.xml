@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0fde57b5-8de8-4d8d-9316-bf9661c96c8b">
+    <jcr:content
+        cq:name="enter-my-own-amount"
+        cq:parentPath="/content/dam/vue-aem-spa/models/product-actions"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-11-11T11:16:33.225+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Enter My Own Amount"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-11-11T11:16:33.226+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/product-interactions"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2020-11-11T11:16:33.210+11:00"
+                productInteractions="Enter my own amount"
+                productInteractions_x0040_LastModified="{Date}2020-11-11T11:16:33.210+11:00"
+                reference_x0040_LastModified="{Date}2020-11-11T11:16:33.210+11:00"
+                title="Enter My Own Amount"
+                title_x0040_LastModified="{Date}2020-11-11T11:16:33.210+11:00"
+                tooltip_x0040_ContentType="text/html"
+                tooltip_x0040_LastModified="{Date}2020-11-11T11:16:33.210+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

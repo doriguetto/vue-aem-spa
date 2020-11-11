@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7422f841-f953-43d1-abed-bee363e04119">
+    <jcr:content
+        cq:name="q_3"
+        cq:parentPath="/content/dam/vue-aem-spa/models/questions"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-21T13:56:29.913+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="q_3"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-21T13:56:29.913+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/question"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answers="[/content/dam/vue-aem-spa/models/answers/a_8]"
+                answers_x0040_LastModified="{Date}2020-10-21T13:56:29.894+11:00"
+                label="What kind?"
+                label_x0040_LastModified="{Date}2020-10-21T13:56:29.894+11:00"
+                type="textfield"
+                type_x0040_LastModified="{Date}2020-10-21T13:56:29.894+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

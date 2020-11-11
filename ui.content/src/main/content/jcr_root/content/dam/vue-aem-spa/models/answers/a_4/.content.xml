@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b4baeb2b-55ad-4339-946a-f6186df88438">
+    <jcr:content
+        cq:name="a_4"
+        cq:parentPath="/content/dam/vue-aem-spa/models/answers"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-20T14:43:40.634+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="a_4"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-20T14:43:40.635+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/answer"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                eq="4"
+                eq_x0040_LastModified="{Date}2020-10-20T14:43:40.620+11:00"
+                eqNextQuestion="/content/dam/vue-aem-spa/models/questions/q_2"
+                eqNextQuestion_x0040_LastModified="{Date}2020-10-20T14:43:40.620+11:00"
+                gt_x0040_LastModified="{Date}2020-10-20T14:43:40.621+11:00"
+                gtNextQuestion_x0040_LastModified="{Date}2020-10-20T14:43:40.621+11:00"
+                label="Employee"
+                label_x0040_LastModified="{Date}2020-10-20T14:43:40.619+11:00"
+                lt_x0040_LastModified="{Date}2020-10-20T14:43:40.621+11:00"
+                ltNextQuestion_x0040_LastModified="{Date}2020-10-20T14:43:40.621+11:00"
+                selected="{Boolean}false"
+                selected_x0040_LastModified="{Date}2020-10-20T14:43:40.620+11:00"
+                value="4"
+                value_x0040_LastModified="{Date}2020-10-20T14:43:40.619+11:00"
+                variableName_x0040_LastModified="{Date}2020-10-20T14:43:40.620+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

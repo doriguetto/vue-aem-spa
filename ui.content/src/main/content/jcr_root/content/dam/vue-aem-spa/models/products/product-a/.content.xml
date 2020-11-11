@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9413474e-1179-4656-967c-105040f14f19">
+    <jcr:content
+        cq:name="product-a"
+        cq:parentPath="/content/dam/vue-aem-spa/models/products"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-11-11T11:34:25.049+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Product A"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-11-11T11:34:25.050+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/product"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                coverAmountActions="[/content/dam/vue-aem-spa/models/product-actions/keep-my-current-cover,/content/dam/vue-aem-spa/models/product-actions/enter-my-own-amount]"
+                coverAmountActions_x0040_LastModified="{Date}2020-11-11T11:34:25.032+11:00"
+                coverOptionsActions="[/content/dam/vue-aem-spa/models/product-actions/adjust-cover-unit-(unitised-fixed)]"
+                coverOptionsActions_x0040_LastModified="{Date}2020-11-11T11:34:25.033+11:00"
+                description="&lt;p>Biltong brisket venison bacon leberkas cupim alcatra tail ham hock beef tenderloin bresaola beef ribs boudin. Corned beef brisket cupim swine salami meatloaf bacon. Spare ribs cow salami pastrami, swine chuck prosciutto tri-tip hamburger cupim ham hock chislic. Pastrami jowl sausage landjaeger frankfurter. Pastrami brisket porchetta kielbasa doner beef ribs pancetta sirloin chuck chislic meatball short loin shoulder jowl hamburger. Fatback shoulder picanha shank swine, chislic pork belly chuck filet mignon jowl. Swine leberkas corned beef pork chop kevin burgdoggen, tongue tri-tip beef meatloaf pig.&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2020-11-11T11:34:25.031+11:00"
+                learnMore_x0040_LastModified="{Date}2020-11-11T11:34:25.032+11:00"
+                productActions="[/content/dam/vue-aem-spa/models/product-actions/cancel-cover,/content/dam/vue-aem-spa/models/product-actions/calculate-cover]"
+                productActions_x0040_LastModified="{Date}2020-11-11T11:34:25.032+11:00"
+                title="Product A"
+                title_x0040_LastModified="{Date}2020-11-11T11:34:25.031+11:00"
+                tooltip_x0040_ContentType="text/html"
+                tooltip_x0040_LastModified="{Date}2020-11-11T11:34:25.032+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

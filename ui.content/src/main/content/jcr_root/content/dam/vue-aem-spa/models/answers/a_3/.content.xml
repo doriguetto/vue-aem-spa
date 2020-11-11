@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="25dbd6be-291b-4904-a7de-6d3438cbe8cd">
+    <jcr:content
+        cq:name="a_3"
+        cq:parentPath="/content/dam/vue-aem-spa/models/answers"
+        jcr:description=""
+        jcr:lastModified="{Date}2020-10-20T14:37:11.981+11:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="a_3"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2020-10-20T14:37:11.981+11:00">
+        <data
+            cq:model="/conf/vue-aem-spa/settings/dam/cfm/models/answer"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                eq_x0040_LastModified="{Date}2020-10-20T14:37:11.954+11:00"
+                eqNextQuestion_x0040_LastModified="{Date}2020-10-20T14:37:11.954+11:00"
+                gt_x0040_LastModified="{Date}2020-10-20T14:37:11.955+11:00"
+                gtNextQuestion_x0040_LastModified="{Date}2020-10-20T14:37:11.955+11:00"
+                label="Unemployed"
+                label_x0040_LastModified="{Date}2020-10-20T14:37:11.953+11:00"
+                lt_x0040_LastModified="{Date}2020-10-20T14:37:11.955+11:00"
+                ltNextQuestion_x0040_LastModified="{Date}2020-10-20T14:37:11.955+11:00"
+                selected="{Boolean}false"
+                selected_x0040_LastModified="{Date}2020-10-20T14:37:11.954+11:00"
+                value="3"
+                value_x0040_LastModified="{Date}2020-10-20T14:37:11.954+11:00"
+                variableName_x0040_LastModified="{Date}2020-10-20T14:37:11.954+11:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

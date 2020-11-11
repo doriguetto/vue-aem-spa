@@ -11,9 +11,6 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
     "^.+\\.js$": "babel-jest",
   },
-  "transformIgnorePatterns": [
-    "node_modules/(?!vue-spa-component-mapping)"
-  ],
   collectCoverage: true,
   collectCoverageFrom: [
     "**/**/*.vue",
