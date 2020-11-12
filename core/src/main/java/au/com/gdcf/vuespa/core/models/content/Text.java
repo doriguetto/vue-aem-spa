@@ -2,12 +2,8 @@ package au.com.gdcf.vuespa.core.models.content;
 
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
-import com.day.cq.wcm.api.Page;
-import com.day.cq.wcm.api.designer.Design;
-import com.day.cq.wcm.api.designer.Style;
 import com.day.cq.wcm.api.policies.ContentPolicy;
 import com.day.cq.wcm.api.policies.ContentPolicyManager;
-import com.day.cq.wcm.commons.policy.ContentPolicyStyle;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
@@ -17,11 +13,15 @@ import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Exporter;
 import org.apache.sling.models.annotations.ExporterOption;
 import org.apache.sling.models.annotations.Model;
-import org.apache.sling.models.annotations.injectorspecific.*;
+import org.apache.sling.models.annotations.injectorspecific.Self;
+import org.apache.sling.models.annotations.injectorspecific.SlingObject;
+import org.apache.sling.models.annotations.injectorspecific.ValueMapValue;
 
 import javax.annotation.Nonnull;
 import javax.annotation.PostConstruct;
-
+import javax.inject.Named;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -79,14 +79,9 @@ public class Text implements ComponentExporter {
   @ValueMapValue
   protected String text;
 
-  @ScriptVariable
-  protected Style currentStyle;
-
-  @ScriptVariable
-  protected Design currentDesign;
-
-  @ScriptVariable
-  protected Page currentPage;
+  @ValueMapValue
+  @Named("cq:styleIds")
+  protected List<String> styleIds;
 
   @SlingObject
   protected ResourceResolver resourceResolver;
@@ -102,19 +97,45 @@ public class Text implements ComponentExporter {
     return text;
   }
 
+  protected List<String> styleClasses = new ArrayList<>();
+
 
   @PostConstruct
   protected void init() {
 
-    ContentPolicyManager contentPolicyManager = resourceResolver.adaptTo(ContentPolicyManager.class);
-    if (contentPolicyManager != null) {
-      ContentPolicy policy = contentPolicyManager.getPolicy(request.getResource());
-      if (policy != null) {
-        ContentPolicyStyle contentPolicyStyle = new ContentPolicyStyle(policy, currentStyle.getCell());
+    if (styleIds != null) {
+      ContentPolicyManager contentPolicyManager = resourceResolver.adaptTo(ContentPolicyManager.class);
+      if (contentPolicyManager != null) {
+        ContentPolicy policy = contentPolicyManager.getPolicy(request.getResource());
+        if (policy != null) {
+          String policyPath = policy.getPath();
 
-        ValueMap contentPolicyProperties = policy.getProperties();
+          // get styles group resource
+          Resource styleGroupsResource = resourceResolver.getResource(policyPath + "/cq:styleGroups");
+          if (styleGroupsResource != null) {
+            for (Resource res : styleGroupsResource.getChildren()) {
+
+              // get styles resource
+              Resource stylesResource = res.getChild("cq:styles");
+              if (stylesResource != null) {
+                for (Resource styleResource : stylesResource.getChildren()) {
+                  ValueMap styleProperties = styleResource.getValueMap();
+                  for (String styleId : styleIds) {
+                    String id = styleProperties.get("cq:styleId", String.class);
+                    if (id != null && styleId.equalsIgnoreCase(id)) {
+                      styleClasses.add(styleProperties.get("cq:styleClasses", String.class));
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
 
+  public List<String> getStyleClasses() {
+    return styleClasses;
+  }
 }

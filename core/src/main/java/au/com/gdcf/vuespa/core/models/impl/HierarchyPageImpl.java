@@ -57,7 +57,7 @@ public class HierarchyPageImpl implements HierarchyPage {
   /**
    * Resource type of associated with the current implementation
    */
-  protected static final String RESOURCE_TYPE = "vue-aem-spa/components/structure/app";
+  protected static final String RESOURCE_TYPE = "vue-aem-spa/components/structure/page";
 
   /**
    * Request attribute key of the component context

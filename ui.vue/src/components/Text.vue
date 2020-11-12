@@ -1,5 +1,5 @@
 <template>
-  <div :data-cq-data-path="cqPath">
+  <div :data-cq-data-path="cqPath" :class="styleClasses">
     <div v-html="text"></div>
     <div v-if="isEmpty" data-emptytext="Text" class="cq-placeholder"></div>
   </div>
@@ -16,6 +16,9 @@
     computed: {
       text: function () {
         return this.model.text
+      },
+      styleClasses: function() {
+        return this.model.styleClasses? this.model.styleClasses.map((item) => ({[item] : true })) : undefined
       },
       isEmpty: function () {
         return !this.text
