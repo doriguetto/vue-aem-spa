@@ -13,7 +13,7 @@
  ~ See the License for the specific language governing permissions and
  ~ limitations under the License.
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-package au.com.gdcf.vuespa.core.models;
+package au.com.gdcf.vuespa.core.models.adapters;
 
 import com.adobe.cq.export.json.ContainerExporter;
 import com.adobe.cq.export.json.hierarchy.HierarchyNodeExporter;

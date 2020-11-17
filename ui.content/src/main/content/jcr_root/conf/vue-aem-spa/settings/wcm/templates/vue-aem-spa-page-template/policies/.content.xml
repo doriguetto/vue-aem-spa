@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-11-12T12:17:54.167+11:00"
+        cq:lastModified="{Date}2020-11-17T19:22:51.261+11:00"
         cq:lastModifiedBy="admin"
         cq:policy="vue-aem-spa/components/structure/page/default_page"
         jcr:primaryType="nt:unstructured"
@@ -26,6 +26,33 @@
                     </components>
                 </vue-aem-spa>
             </responsivegrid>
+            <container_519023147
+                cq:policy="vue-aem-spa/components/content/container/policy_1605597379324"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <vue-aem-spa jcr:primaryType="nt:unstructured">
+                    <components jcr:primaryType="nt:unstructured">
+                        <content jcr:primaryType="nt:unstructured">
+                            <text
+                                cq:policy="vue-aem-spa/components/content/text/policy_1539029830437"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                            <container
+                                cq:policy="vue-aem-spa/components/content/container/policy_1605597379324"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </content>
+                    </components>
+                </vue-aem-spa>
+            </container_519023147>
+            <container
+                cq:policy="vue-aem-spa/components/content/container/policy_1605597379324"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <container_408453438
+                cq:policy="vue-aem-spa/components/content/container/policy_1605597379324"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
         </root>
     </jcr:content>
 </jcr:root>

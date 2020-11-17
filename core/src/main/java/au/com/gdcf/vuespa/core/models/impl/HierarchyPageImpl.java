@@ -15,7 +15,7 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 package au.com.gdcf.vuespa.core.models.impl;
 
-import au.com.gdcf.vuespa.core.models.HierarchyPage;
+import au.com.gdcf.vuespa.core.models.adapters.HierarchyPage;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ContainerExporter;
 import com.adobe.cq.export.json.ExporterConstants;

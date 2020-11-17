@@ -10,72 +10,13 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <responsivegrid
-                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+            <container
+                jcr:created="{Date}2020-11-17T18:16:09.505+11:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-12-07T16:49:29.168+05:30"
+                jcr:lastModified="{Date}2020-11-17T18:16:14.463+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <responsivegrid
-                    jcr:created="{Date}2019-08-29T16:50:02.823+10:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2019-08-29T16:50:02.823+10:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="wcm/foundation/components/responsivegrid">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="1"
-                            width="10"/>
-                    </cq:responsive>
-                    <responsivegrid
-                        jcr:created="{Date}2019-08-29T16:50:20.633+10:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-08-29T16:50:20.633+10:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="6"/>
-                        </cq:responsive>
-                        <text
-                            jcr:created="{Date}2019-08-29T16:50:41.289+10:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-08-29T16:50:58.878+10:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="vue-aem-spa/components/content/text"
-                            text="&lt;h1>&amp;nbsp;&lt;/h1>&#xa;&lt;h1>Heading&lt;/h1>&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xa;"
-                            textIsRich="true"/>
-                    </responsivegrid>
-                    <responsivegrid_2061691392
-                        jcr:created="{Date}2019-08-29T16:50:23.835+10:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-08-29T16:50:23.835+10:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wcm/foundation/components/responsivegrid">
-                        <cq:responsive jcr:primaryType="nt:unstructured">
-                            <default
-                                jcr:primaryType="nt:unstructured"
-                                width="4"/>
-                        </cq:responsive>
-                        <text
-                            jcr:created="{Date}2019-08-29T16:50:44.263+10:00"
-                            jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2019-08-29T16:51:31.222+10:00"
-                            jcr:lastModifiedBy="admin"
-                            jcr:primaryType="nt:unstructured"
-                            sling:resourceType="vue-aem-spa/components/content/text"
-                            text="&lt;h1>&amp;nbsp;&lt;/h1>&#xd;&#xa;&lt;h1>Sidebar&lt;/h1>&#xd;&#xa;&lt;h1>&amp;nbsp;&lt;/h1>&#xd;&#xa;"
-                            textIsRich="true"/>
-                    </responsivegrid_2061691392>
-                </responsivegrid>
-            </responsivegrid>
+                sling:resourceType="vue-aem-spa/components/content/container"/>
         </root>
     </jcr:content>
 </jcr:root>

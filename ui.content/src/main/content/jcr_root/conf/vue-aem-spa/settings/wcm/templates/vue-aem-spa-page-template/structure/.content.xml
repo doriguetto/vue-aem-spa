@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2020-11-12T12:01:33.647+11:00"
+        cq:lastModified="{Date}2020-11-17T19:21:54.128+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue-aem-spa/settings/wcm/templates/vue-aem-spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -23,23 +23,85 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <nav
-                jcr:created="{Date}2020-11-12T12:01:30.565+11:00"
+            <container
+                jcr:created="{Date}2020-11-17T19:15:04.849+11:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-11-12T12:01:30.565+11:00"
+                jcr:lastModified="{Date}2020-11-17T19:16:14.569+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="vue-aem-spa/components/content/nav"/>
-            <responsivegrid
-                jcr:created="{Date}2017-12-07T16:48:57.968+05:30"
+                sling:resourceType="vue-aem-spa/components/content/container"
+                backgroundColor="rgb(127,255,127)">
+                <nav
+                    jcr:created="{Date}2020-11-17T19:16:03.176+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-11-17T19:16:03.176+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue-aem-spa/components/content/nav"/>
+            </container>
+            <container_519023147
+                jcr:created="{Date}2020-11-17T19:15:14.328+11:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2017-12-07T16:48:57.968+05:30"
+                jcr:lastModified="{Date}2020-11-17T19:15:14.328+11:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
+                sling:resourceType="vue-aem-spa/components/content/container"
                 editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured"/>
-            </responsivegrid>
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="10"/>
+                </cq:responsive>
+            </container_519023147>
+            <container_408453438
+                jcr:created="{Date}2020-11-17T19:15:20.395+11:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-11-17T19:16:24.957+11:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vue-aem-spa/components/content/container"
+                backgroundColor="rgb(127,255,127)">
+                <list
+                    jcr:created="{Date}2020-11-17T19:16:29.109+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-11-17T19:17:58.666+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue-aem-spa/components/content/list"
+                    childDepth="1"
+                    linkItems="true"
+                    listFrom="children"
+                    orderBy="title"
+                    parentPage="/content/vue-aem-spa/home"
+                    showDescription="false"
+                    showModificationDate="false"
+                    sortOrder="asc"
+                    tagsMatch="any">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="1"
+                            width="3"/>
+                    </cq:responsive>
+                </list>
+                <text
+                    jcr:created="{Date}2020-11-17T19:16:58.808+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-11-17T19:17:09.809+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue-aem-spa/components/content/text"
+                    text="&lt;p>This is a sample disclaimer&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </text>
+            </container_408453438>
         </root>
     </jcr:content>
 </jcr:root>

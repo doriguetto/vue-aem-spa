@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-11-12T11:27:02.423+11:00"
+        cq:lastModified="{Date}2020-11-17T19:21:29.290+11:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/vue-aem-spa/settings/wcm/templates/vue-aem-spa-page-template"
         jcr:primaryType="cq:PageContent"
@@ -85,6 +85,27 @@
                     </responsivegrid_2037838783>
                 </responsivegrid>
             </responsivegrid>
+            <container_519023147
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="vue-aem-spa/components/content/container">
+                <text
+                    cq:styleIds="[1605131308968]"
+                    jcr:created="{Date}2020-11-17T19:19:28.738+11:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-11-17T19:21:06.188+11:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="vue-aem-spa/components/content/text"
+                    text="&lt;p>&lt;b>About&lt;/b>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Bacon ipsum dolor amet jerky meatloaf pastrami ground round ribeye. Hamburger tri-tip turkey pork chop pig ground round swine capicola pork loin meatloaf buffalo. Cupim drumstick landjaeger meatball rump ribeye. Swine strip steak t-bone jowl ground round cupim tenderloin biltong andouille shoulder. Chicken landjaeger burgdoggen ham, shankle frankfurter beef ribs rump tongue prosciutto tail jerky swine. Brisket andouille tongue pork shank frankfurter leberkas drumstick. Tenderloin buffalo turducken meatball tri-tip cupim porchetta corned beef salami pastrami shankle chislic.&lt;/p>&#xa;&lt;p>Beef pork chop short ribs buffalo tri-tip shoulder, tongue strip steak tenderloin flank bacon. Bacon doner prosciutto biltong, andouille ham capicola tongue venison tri-tip. Pork chop leberkas tail, fatback pork loin meatball spare ribs picanha shoulder ground round cupim landjaeger tri-tip pork. Chicken sirloin tail landjaeger fatback pork loin ham hock, filet mignon boudin pancetta ribeye brisket alcatra swine drumstick.&lt;/p>&#xa;&lt;p>Bresaola doner pork loin shankle sirloin bacon frankfurter. Beef ribs pancetta pork belly, porchetta t-bone beef leberkas meatball ham hock. Sausage shank tongue landjaeger biltong. Tri-tip bacon turducken cow ribeye prosciutto frankfurter chislic ground round. Tail kielbasa t-bone hamburger, salami ground round landjaeger ball tip frankfurter chicken. Salami filet mignon doner, beef ribs short loin alcatra rump pork belly buffalo andouille beef prosciutto pork chuck pastrami. Chuck pastrami biltong ball tip hamburger short loin shankle fatback brisket.&lt;/p>&#xa;&lt;p>Drumstick turkey capicola doner bacon landjaeger. Cupim fatback chislic biltong tail. Flank ham brisket beef ribs meatloaf. Kevin porchetta tenderloin brisket ham t-bone ball tip chicken pork chop, short loin kielbasa cupim tongue. T-bone short loin jowl pork. Bacon ham cupim prosciutto. Brisket ground round boudin andouille pork meatloaf ham hock beef ribs sausage filet mignon short loin.&lt;/p>&#xa;&lt;p>Leberkas turducken alcatra, brisket strip steak doner chuck. Ham hock short ribs pancetta, pork belly burgdoggen bresaola pork chop brisket turkey cupim chuck. Tail brisket beef ribs tongue, pork chop pancetta spare ribs tenderloin pork belly turkey ribeye doner pork frankfurter venison. Sausage flank jowl pastrami swine burgdoggen salami turkey pork loin t-bone biltong ham hock pork belly.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+            </container_519023147>
         </root>
     </jcr:content>
 </jcr:root>
